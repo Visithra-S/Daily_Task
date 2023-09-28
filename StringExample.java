@@ -4,6 +4,8 @@ class StringExample{
 		String var1 = "visithrasubramanian"; //Second way of object creation using string literal.
 		var1 = "vs";
 		
+		var1 = var;
+		
 		System.out.println(var);
 		System.out.println(var1);
 	}
