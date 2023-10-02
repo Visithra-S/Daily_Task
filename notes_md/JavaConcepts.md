@@ -1,7 +1,9 @@
 # Introduction,IDE Installation,First Program
 
  1).Variables.
+
  2).Data types.
+
  3).Comments.
  4).Literals.
  5).Type Conversion.
