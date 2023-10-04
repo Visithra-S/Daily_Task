@@ -3,11 +3,16 @@ import java.util.Scanner;
 class MethodDemo{
 	
 	private static String personelDetails(String firstName,String lastName){
+	
 		if(firstName.length() == 0 && lastName.length() == 0){
 		   return "Does`t Provide the First Name and Last Name.";
 		}
-		 return firstName + " " +lastName;
 		
+		if(firstName.equalsIgnoreCase("null") && lastName.equalsIgnoreCase("null")){
+		   return "firstname and lastName shouldn't null .";
+		}
+		
+		 return firstName + " " +lastName;
 	}
 	
 	public static void main(String args[]){
@@ -24,6 +29,6 @@ class MethodDemo{
 		
 		String fullName = personelDetails(firstname, lastname);
 		
-		System.out.println("My fullName is  " + fullName);	
+		System.out.println("My fullName is : " + fullName);	
 	}
 }

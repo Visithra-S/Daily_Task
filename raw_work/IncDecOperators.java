@@ -8,11 +8,20 @@ class IncDecOperators{
 		int b1 = b--;//same as-post decrement
 		int b2 = --b;//pre decrement
 		
+		int c=1,d=2;
+		int e = c++ + ++d;
+		
+		int f=1,g=2;
+		int h = f-- + --g;
+		
 		//Increment
-		System.out.println(a1);
-		System.out.println(a2);
-		//DEcrement
-		System.out.println(b1);
-		System.out.println(b2);
+		System.out.println("a1 : " + a1);
+		System.out.println("a2 : " + a2);
+		//Decrement
+		System.out.println("b1 : " + b1);
+		System.out.println("b2 : " + b2);
+		
+		System.out.println("e : " + e);
+		System.out.println("h : " + h);
 	}
 }
