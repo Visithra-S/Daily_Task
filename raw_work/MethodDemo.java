@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 class MethodDemo{
 	
-	static String personelDetails(String firstName,String lastName){
+	private static String personelDetails(String firstName,String lastName){
 		if(firstName.length() == 0 && lastName.length() == 0){
-		 return "Does`t Provide the First Name and Last Name.";
+		   return "Does`t Provide the First Name and Last Name.";
 		}
 		 return firstName + " " +lastName;
 		
