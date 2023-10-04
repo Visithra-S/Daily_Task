@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class MethodDemo{
 	
-	static String personelDetails(String firstName,char lastName){
+	static String personelDetails(String firstName,String lastName){
 		return firstName + " " +lastName;
 	}
 	
@@ -14,7 +14,7 @@ class MethodDemo{
 		String firstname = scanner.nextLine();
 		
 		System.out.println("Enter your LastName : ");
-		char lastname = scanner.next().charAt(0);
+		String lastname = scanner.nextLine();
 		
 		String fullName = personelDetails(firstname, lastname);
 		
