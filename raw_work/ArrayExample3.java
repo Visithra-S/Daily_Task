@@ -1,11 +1,11 @@
-/*class ArrayExample3{
+class ArrayExample3{
 	public static void main(String visi[]){
-		int[][] num = new int[2][3];
+		int[][] num = {{1,2},{3,4},{5,6}};
 		
-		num[0][1] = {1,2};
-		
-		for(int i = 0; i<=num.length; i++){
-				System.out.println(num[i][j]);		
-		}
+		//for(int i = 0; i<=num.length; i++){
+			//for(int j = 0; j <= num.length ;  j++){
+				System.out.println(num[1][1]);		
+			//}
+		//}
 	}
-}*/
+}
