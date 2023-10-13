@@ -12,12 +12,3 @@ class MethodDemo1{
 		return num1*num2;
 	}
 }
-public class MethodDemo2{
-	public static void main(String visi[]){
-		
-		MethodDemo1 methoddemo = new MethodDemo1();
-		
-		methoddemo.demo(1,2);
-		System.out.println(methoddemo.value());		
-	}
-}
