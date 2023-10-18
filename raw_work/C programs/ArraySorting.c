@@ -14,7 +14,7 @@ int main(void){
 	
 	for(i = 0; i < limit-1; i++){
 		for(j = i+1; j < limit; j++){
-			if(values[i] > values[j]){
+			if(values[i] > values[j]){//asscending >, < descending.
 				temp = values[i];
 				values[i] = values[j];
 				values[j] = temp;
